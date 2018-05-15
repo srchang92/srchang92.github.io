@@ -1,0 +1,46 @@
+.portfolio-thumb{
+	padding: 16px;
+}
+.jumbotron{
+	body: white;
+	background-color: white;
+	padding: 15px;
+	font-family:Georgia;
+	letter-spacing: 5px;
+}
+.resume-section{
+	padding: 15px;
+	font-family:Georgia;
+}
+.about-me{
+	padding: 15px;
+	font-family:Georgia;
+	width:1000px;
+}
+.portfolio-thumb{
+	font-family:Georgia;
+}
+.navbar{
+	font-family: Georgia;
+	color: white;
+	border-color: green;
+}
+div.portfolio-thumb{
+	border-style: solid;
+	padding:10px;
+	border-radius: 5px;
+	border-color:#DCDCDC;
+	border-width:2px;
+}
+h3.h3{
+	text-align:center;
+	padding-top:2px;
+	margin:1px;
+	padding:1px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+div.footer{
+	background-color:white;
+}
+/*body.body{*/

@@ -1,0 +1,88 @@
+<!DOCTYPE html?>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>\
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="body">
+		
+		<!--jumbotron starts here -->
+			<div class="jumbotron">
+				<div class="container text-center">
+					<img src="images/jumbotron.jpg" alt= "name of image" class="img-responsive" />
+					<!--<h2> Stephen Chang </h2>
+					<p>A Place for Maps</p>-->
+				</div>
+			</div>
+		
+		<!--navbar-->
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type = "button" class="navbar-toggle"
+						data-toggle="collapse" data-target="#myNav">
+						<span class = "sr-only"> Toggle navigation </span>
+						<span class="glyphicon glyphicon-menu-hamburger" style="color:gray"></span>
+						<span class="menu">Menu</span>
+					</button>
+					<div id="myNav" class="collapse navbar-collapse">
+						<div id="myNav" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html"> Home</a></li>
+							<li><a href="aboutme.html"> About Me</a></li>
+							<li><a href="resume.html"> Resume</a></li>
+							<li><a href="fieldwork.html"> Fieldwork</a></li>
+							<li><a href="research.html"> Research</a></li>
+						</ul>							
+				</div>
+			</div>
+		</nav>
+		
+		
+		
+		<!-- statepark map pf starts here-->
+		<div class="container">
+			<div class="row statepark-style">
+				<div class="col-md-6 col-sm-6 cos-xs-12 africa-style">
+					<h1 class="resume-title text-left">Governor Dodge State Park Map</h1>	
+						<p> This is my final project for an advanced cartographic design class where 
+						I expanded upon our terrain representation done in Arcmap by rendering the 
+						landscape in a 3d graphics program instead. I wanted to create a map of one
+						of my favorite State Parks and its trails, and I ended up hiking all of the 
+						trails on this map with a GPS to try and get the data. I successfully hiked 18 miles in 
+						one day, but before I planned on going back to finish the remaining 10 or so miles, a 
+						DNR GIS analyst sent me a georeferenced shapefile of all of the trails. My efforts had 
+						been in vain, but it was a great day and a needed distraction from long hours working in 
+						Illustrator and photoshop. Everyone should visit and support Governor Dodge State Park!</p> 
+						<p>	Terrain was made in Blender 3d software from 10m DEM provided by the Wisconsin DNR.
+						Shapefiles for the streams, lakes, and roads all accessed from the Wisconsin DNR GIS 
+						repository as well. Landcover data was provided by the Wiscland 2 project through the 
+						Wisconsin State Cartographer’s office and UW Madison. Forest texture created from an 
+						aerial image taken by Pete Mcbride</p>								
+				</div>
+				<div class="col-md-6 col-sm-6 cos-xs-12 aboutme-style">
+					<a href="images/statepark.jpg" alt="name of image" class="img-responsive"/>
+						<img src="images/statepark.jpg" alt="name of image" class="img-responsive"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer starts here-->
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<h3>Stephen Chang</h3>
+					<h4>University of Wisconsin–Madison</h4>
+					<h4>Email: srchang92@gmail.com</h4>
+					<h4>Twitter: <a href="https://twitter.com/stephenchange">@stephenchange</a></h4>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>
